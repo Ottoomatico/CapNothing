@@ -3,12 +3,14 @@
 import { useTranslations, useLocale } from 'next-intl'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
+import { useCartStore } from '@/store/cart'
 
 export default function Navbar() {
   const t = useTranslations('nav')
   const locale = useLocale()
   const pathname = usePathname()
   const router = useRouter()
+  const itemCount = useCartStore(s => s.items.reduce((acc, i) => acc + i.quantity, 0))
 
   function switchLocale() {
     const next = locale === 'fr' ? 'en' : 'fr'
@@ -43,8 +45,10 @@ export default function Navbar() {
         <Link href={`/${locale}/account`} className="font-mono text-[9px] transition-colors" style={{ color: '#666666' }}>
           ○
         </Link>
-        <Link href={`/${locale}/cart`} className="font-mono text-[9px] transition-colors" style={{ color: '#666666' }}>
-          ⊙
+        <Link href={`/${locale}/cart`} className="font-mono text-[9px] transition-colors relative" style={{ color: '#666666' }}>
+          ⊙{itemCount > 0 && (
+            <span className="absolute -top-2 -right-2 font-mono" style={{ fontSize: '8px', color: '#E8E8E8' }}>{itemCount}</span>
+          )}
         </Link>
       </div>
     </nav>
