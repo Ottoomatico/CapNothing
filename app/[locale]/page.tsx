@@ -1,10 +1,8 @@
 import { getLocale, getTranslations } from 'next-intl/server'
-import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import Button from '@/components/ui/Button'
-
-const HeroScene = dynamic(() => import('@/components/three/HeroScene'), { ssr: false })
+import HeroScene from '@/components/three/HeroSceneClient'
 
 export default async function HomePage() {
   const locale = await getLocale()

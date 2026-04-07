@@ -1,12 +1,10 @@
 import { notFound } from 'next/navigation'
 import { getLocale, getTranslations } from 'next-intl/server'
-import dynamic from 'next/dynamic'
 import { createClient } from '@/lib/supabase/server'
 import { formatPrice } from '@/lib/utils'
 import Badge from '@/components/ui/Badge'
 import AddToCartButton from '@/components/products/AddToCartButton'
-
-const ProductViewer = dynamic(() => import('@/components/three/ProductViewer'), { ssr: false })
+import ProductViewer from '@/components/three/ProductViewerClient'
 
 interface Props {
   params: Promise<{ slug: string; locale: string }>
