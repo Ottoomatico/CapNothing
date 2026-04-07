@@ -1,26 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-space-mono: 'Space Mono', monospace;
+  --color-void: #060606;
+  --color-surface: #111111;
+  --color-elevated: #1A1A1A;
+  --color-border: #2A2A2A;
+  --color-ice: #E8E8E8;
+  --color-muted: #666666;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-void: #060606;
+  --color-surface: #111111;
+  --color-elevated: #1A1A1A;
+  --color-border: #2A2A2A;
+  --color-ice: #E8E8E8;
+  --color-muted: #666666;
+  --font-family-sans: var(--font-helvetica, 'Helvetica Neue', sans-serif);
+  --font-family-mono: var(--font-space-mono, 'Space Mono', monospace);
+  --letter-spacing-widest2: 0.25em;
+  --letter-spacing-widest3: 0.35em;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #060606;
+  color: #E8E8E8;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #060606;
 }
+
+/* Scrollbar minimal */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #060606; }
+::-webkit-scrollbar-thumb { background: #2A2A2A; }
+
+/* Selection */
+::selection { background: #2A2A2A; color: #E8E8E8; }
