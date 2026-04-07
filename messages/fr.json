@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "products": "PRODUITS",
+    "about": "À PROPOS",
+    "login": "CONNEXION",
+    "account": "MON COMPTE",
+    "cart": "PANIER"
+  },
+  "home": {
+    "tagline": "FORMULE AVANCÉE",
+    "headline": "OPTIMISE\nTON\nPOTENTIEL",
+    "sub": "Compléments de précision.\nFormulés pour la performance.",
+    "cta": "DÉCOUVRIR →",
+    "featured": "FORMULES SÉLECTIONNÉES"
+  },
+  "products": {
+    "title": "NOS FORMULES",
+    "subtitle": "5 RÉFÉRENCES · QUALITÉ PHARMACEUTIQUE",
+    "addToCart": "AJOUTER AU PANIER",
+    "learnMore": "COMPOSITION COMPLÈTE",
+    "inStock": "EN STOCK",
+    "outOfStock": "RUPTURE",
+    "rotate": "GLISSER POUR TOURNER",
+    "capsules": "CAPSULES",
+    "days": "JOURS"
+  },
+  "cart": {
+    "title": "PANIER",
+    "empty": "PANIER VIDE",
+    "total": "TOTAL",
+    "checkout": "PROCÉDER AU PAIEMENT",
+    "remove": "SUPPRIMER",
+    "quantity": "QTÉ"
+  },
+  "auth": {
+    "email": "EMAIL",
+    "password": "MOT DE PASSE",
+    "fullName": "NOM COMPLET",
+    "login": "SE CONNECTER",
+    "register": "CRÉER UN COMPTE",
+    "noAccount": "PAS DE COMPTE ?",
+    "hasAccount": "DÉJÀ UN COMPTE ?"
+  },
+  "account": {
+    "title": "MON COMPTE",
+    "orders": "COMMANDES",
+    "noOrders": "AUCUNE COMMANDE",
+    "orderNumber": "COMMANDE",
+    "status": {
+      "pending": "EN ATTENTE",
+      "paid": "PAYÉE",
+      "shipped": "EXPÉDIÉE",
+      "delivered": "LIVRÉE"
+    }
+  },
+  "success": {
+    "title": "COMMANDE CONFIRMÉE",
+    "subtitle": "Merci. Votre commande a été reçue.",
+    "cta": "VOIR MES COMMANDES"
+  },
+  "about": {
+    "title": "NOTRE MISSION",
+    "body": "Capsule est né d'une conviction : la nutrition de précision ne devrait pas ressembler à une pharmacie. Nous formulons chaque complexe avec des actifs cliniquement dosés, dans un conditionnement qui respecte votre espace.",
+    "values": ["PRÉCISION", "PURETÉ", "MINIMALISME"]
+  }
+}

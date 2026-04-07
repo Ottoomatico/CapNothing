@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "products": "PRODUCTS",
+    "about": "ABOUT",
+    "login": "LOGIN",
+    "account": "MY ACCOUNT",
+    "cart": "CART"
+  },
+  "home": {
+    "tagline": "ADVANCED FORMULA",
+    "headline": "OPTIMISE\nYOUR\nPOTENTIAL",
+    "sub": "Precision supplements.\nFormulated for performance.",
+    "cta": "DISCOVER →",
+    "featured": "SELECTED FORMULAS"
+  },
+  "products": {
+    "title": "OUR FORMULAS",
+    "subtitle": "5 REFERENCES · PHARMACEUTICAL GRADE",
+    "addToCart": "ADD TO CART",
+    "learnMore": "FULL COMPOSITION",
+    "inStock": "IN STOCK",
+    "outOfStock": "OUT OF STOCK",
+    "rotate": "DRAG TO ROTATE",
+    "capsules": "CAPSULES",
+    "days": "DAYS"
+  },
+  "cart": {
+    "title": "CART",
+    "empty": "EMPTY CART",
+    "total": "TOTAL",
+    "checkout": "PROCEED TO CHECKOUT",
+    "remove": "REMOVE",
+    "quantity": "QTY"
+  },
+  "auth": {
+    "email": "EMAIL",
+    "password": "PASSWORD",
+    "fullName": "FULL NAME",
+    "login": "SIGN IN",
+    "register": "CREATE ACCOUNT",
+    "noAccount": "NO ACCOUNT?",
+    "hasAccount": "ALREADY HAVE AN ACCOUNT?"
+  },
+  "account": {
+    "title": "MY ACCOUNT",
+    "orders": "ORDERS",
+    "noOrders": "NO ORDERS YET",
+    "orderNumber": "ORDER",
+    "status": {
+      "pending": "PENDING",
+      "paid": "PAID",
+      "shipped": "SHIPPED",
+      "delivered": "DELIVERED"
+    }
+  },
+  "success": {
+    "title": "ORDER CONFIRMED",
+    "subtitle": "Thank you. Your order has been received.",
+    "cta": "VIEW MY ORDERS"
+  },
+  "about": {
+    "title": "OUR MISSION",
+    "body": "Capsule was born from a conviction: precision nutrition should not look like a pharmacy. We formulate each complex with clinically dosed actives, in packaging that respects your space.",
+    "values": ["PRECISION", "PURITY", "MINIMALISM"]
+  }
+}
